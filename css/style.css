@@ -33,7 +33,10 @@ h1{
 h4{
   font-family: Fredoka One;
   color: #fff;
-  padding-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  font-size: 15px;
+  font-weight: 400;
 }
 .lorem{
     font-family: Fredoka;
@@ -43,6 +46,7 @@ h4{
 .job{
     font-family: Fredoka;
     color: #fff;
+    font-size: 12px;
 }
 .column{
     background-color: rgb(0, 0, 0);
