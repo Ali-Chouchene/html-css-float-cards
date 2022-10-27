@@ -3,6 +3,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
- 
+/*generics*/
+header{
+   max-width: 1000px;
+   margin: 0 auto;
+   text-align: center;
+    
+
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h1{
+ margin: 40px 0;
+ font-family: Fredoka One;
+ color: rgb(228,49,113);
+
+}
+h4{
+  font-family: Fredoka One;
+  color: #fff;
+  padding-top: 10px;
+}
+.lorem{
+    font-family: Fredoka;
+    margin-bottom: 40px;
+
+}
+.job{
+    font-family: Fredoka;
+    color: #fff;
+}
+.column{
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 30%;
+    margin: 7px;
+    
+
+  
+ }
+ img{
+   height: 70px; 
+   padding-right: 10PX;
+}
+a{
+    font-family: fredoka;
+    text-decoration: none;
+    color: rgb(58, 149, 202);
+    font-size: small;
+}
+.float-img{
+    float: left;
+}
+section{
+    margin: 0 auto;
+}
